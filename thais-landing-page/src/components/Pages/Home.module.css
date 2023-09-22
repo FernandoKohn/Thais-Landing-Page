@@ -13,12 +13,67 @@
 .homeContent {
     width: 100%;
     height: 88%;
+    display: flex;
     
 }
 
 .foto {
-    width: 650px;
-    height: 700px;
-    background-image: url("../../Fotos/Thais-txt.png");
-    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.466);
+    width: 600px;
+    height: 750px;
+    background-image: url("../../Fotos/thais2.png");
+    background-size: cover;
+}
+
+.about {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-family: Glass Water;
+    font-size: 7em;
+    color: var(--Titulo);
+    margin-top: 0.3em;
+}
+
+.about p {
+    color: #3935338f;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.about h2 {
+    margin-top: 2em;
+    color: var(--Titulo);
+    font-size: 1.6em;
+}
+
+.linha {
+    width: 40%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: var(--Vermelho);
+}
+
+.ass {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../Fotos/thaisAT.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-top: 30px;
+}
+
+.links {
+    border-bottom: 3px solid var(--Vermelho);
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--Titulo);
+}
+
+.links:hover {
+    font-size: 1.5em;
 }

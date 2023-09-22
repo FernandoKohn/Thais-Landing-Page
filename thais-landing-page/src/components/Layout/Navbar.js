@@ -5,10 +5,12 @@ function Navbar() {
         <div className={styles.navbar}>
             <nav>
                 <ul>
-                    <a href="/Home">
-                        <li>Euzinha</li>
+                    <a href="/">
+                        <li>Sobre</li>
                     </a>
-                    <li>Números</li>
+                    <a href="/Números">
+                        <li>Números</li>
+                    </a>
                     <li>Contato</li>
                 </ul>
             </nav>
