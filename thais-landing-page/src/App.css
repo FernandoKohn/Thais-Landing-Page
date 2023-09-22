@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Glass Water";
+  src: url(../Fonts/glass-water-free-personal-use.ttf);
+}
+
+@font-face {
+  font-family: "Benkids";
+  src: url(../Fonts/Benkids-BF650a9cdf13544.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Benkids";
+}
+
+html {
+ background-color: #D6CAAF;
+}
+
+:root {
+  --Background: #D6CAAF;
+  --Titulo: #393533;
+  --Paragrafo: #100E0B;
+}
+
+.container {
+  height: 800px;
+  width: 1800px;
+  background-color: #D6CAAF;
+  margin: 70px auto;
+  border: 4px solid #000000;
+  border-radius: 5px;
+  display: flex;
+}
+
+h1 {
+  font-size: 4em;
+  color: #EBEF95;
+}
+
+p {
+  font-size: 2em;
+  color: #EFD595;
+}

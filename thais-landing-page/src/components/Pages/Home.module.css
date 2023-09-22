@@ -1,0 +1,24 @@
+
+.home {
+    width: 100%;
+}
+
+.home img {
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.homeContent {
+    width: 100%;
+    height: 88%;
+    
+}
+
+.foto {
+    width: 650px;
+    height: 700px;
+    background-image: url("../../Fotos/Thais-txt.png");
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.466);
+}
