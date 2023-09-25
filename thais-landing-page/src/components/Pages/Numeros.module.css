@@ -1,0 +1,99 @@
+.numeros_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sexo {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.sexo_porcentagem {
+    display: flex;
+    gap: 90px;
+    padding-left: 35px;
+    margin-top: 10px;
+    
+}
+
+.sexo_porcentagem p {
+    color: var(--Vermelho);
+}
+
+.div2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.idade { 
+    display: flex;
+    margin-top: 10px;
+    gap: 40px;
+}
+
+.idade_porcentagem {
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+    margin-left: 30px;
+    
+}
+
+.idade_porcentagem p {
+    color: var(--Vermelho);
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bloco {
+    display: flex;
+    width: 700px;
+    height: 100px; 
+    margin-right: -40px; 
+    align-items: center; 
+    justify-content: center;
+    background-color: var(--Background);
+    border: 5px solid var(--Titulo);
+    border-radius: 6px;
+}
+
+.bloco p {
+    font-size: 1.5em;
+    color: var(--Vermelho);
+}
+
+.bloco span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+
+
+

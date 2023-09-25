@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Layout/Navbar';
 import Home from "../src/components/Pages/Home"
 import Logo from "../src/components/Layout/Logo"
+import Numeros from "../src/components/Pages/Numeros"
 import 'animate.css';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/Números" element={<Numeros/>}/>
         </Routes>
       </Router>
 
