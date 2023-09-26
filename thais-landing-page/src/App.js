@@ -4,6 +4,7 @@ import Navbar from './components/Layout/Navbar';
 import Home from "../src/components/Pages/Home"
 import Logo from "../src/components/Layout/Logo"
 import Numeros from "../src/components/Pages/Numeros"
+import Contato from "../src/components/Pages/Contato"
 import 'animate.css';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Números" element={<Numeros/>}/>
+          <Route path="/Contato" element={<Contato/>}/>
         </Routes>
       </Router>
 

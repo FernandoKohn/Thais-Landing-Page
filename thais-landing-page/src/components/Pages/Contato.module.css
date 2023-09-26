@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo {
+    background-color: aqua;
+    width: 100%;
+    margin-top: 70px;
+}

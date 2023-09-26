@@ -11,7 +11,9 @@ function Navbar() {
                     <a href="/Números">
                         <li>Números</li>
                     </a>
-                    <li>Contato</li>
+                    <a href="/Contato">
+                        <li>Contato</li>
+                    </a>
                 </ul>
             </nav>
         </div>

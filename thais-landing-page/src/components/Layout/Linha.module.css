@@ -1,0 +1,6 @@
+.linha {
+    width: 40%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: var(--Vermelho);
+}
