@@ -2,102 +2,49 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-position: center;
-    background-size: cover;
+    position: relative;
+}
+
+
+.fundo2 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--Background_claro);
 }
 
 .conteudo {
-    margin-top: 40px;
-    height: 500px;
-    width: 100%;
     display: flex;
+    width: 680px;
+    height: 630px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    z-index: 3;
     justify-content: space-between;
-}
-
-.div1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.sexo {
-    display: flex;
-    gap: 30px;
-    margin-top: 10px;
-}
-
-.sexo_porcentagem {
-    display: flex;
-    gap: 90px;
-    padding-left: 35px;
-    margin-top: 10px;
     
 }
 
-.sexo_porcentagem p {
-    color: var(--Vermelho);
+.conteudo h1 {
+    font-size: 100px;
 }
 
-.div2 {
-    justify-content: center;
+.conteudo h2 {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.titulos {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
 }
 
-.idade { 
-    display: flex;
-    margin-top: 10px;
-    gap: 40px;
+.dados {
+    background-color: aqua;
+    margin-right: -50px;
 }
-
-.idade_porcentagem {
-    margin-top: 10px;
-    display: flex;
-    gap: 80px;
-    margin-left: 30px;
-    
-}
-
-.idade_porcentagem p {
-    color: var(--Vermelho);
-}
-
-.div3 {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.bloco {
-    display: flex;
-    width: 700px;
-    height: 100px; 
-    margin-right: -40px; 
-    align-items: center; 
-    justify-content: center;
-    background-color: var(--Paragrafo);
-    border: 5px solid var(--Titulo);
-    border-radius: 6px;
-}
-
-.bloco h1 {
-    color: var(--Vermelho);
-}
-
-.bloco p {
-    font-size: 1.5em;
-    color: var(--Vermelho);
-}
-
-.bloco span {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 20px;
-}
-
-
-
-

@@ -5,6 +5,7 @@ import Linha from "../Layout/Linha"
 function Home() {
     return (
         <div className={styles.home}>
+            
             <Logo />
             <div className={styles.homeContent}>
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>

@@ -14,6 +14,10 @@
     
 }
 
+.content_wrap {
+    display: flex;
+}
+
 .foto {
     width: 600px;
     height: 750px;
