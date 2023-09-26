@@ -77,9 +77,13 @@
     margin-right: -40px; 
     align-items: center; 
     justify-content: center;
-    background-color: var(--Background);
+    background-color: var(--Paragrafo);
     border: 5px solid var(--Titulo);
     border-radius: 6px;
+}
+
+.bloco h1 {
+    color: var(--Vermelho);
 }
 
 .bloco p {
