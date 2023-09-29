@@ -1,8 +1,15 @@
-import styles from "./Instagram.module.css"
+import styles from "./Tiktok.module.css"
+import { TikTok } from "react-tiktok";
 
 function Instagram() {
     return (
         <div className={styles.conteudo}>
+            <div className={styles.videos}>
+                <i class='bx bx-play'></i>
+            </div>
+            <div className={styles.video_play}>
+                
+            </div>
             <div className={styles.titulos}>
                 <h1>Tiktok</h1>
                 <h2>@nixienaga</h2>
@@ -28,8 +35,8 @@ function Instagram() {
                 </div>
                 <div className={styles.bloco}>
                     <div className={styles.subBloco1}>
-                        <h2>Masculino</h2>
-                        <h2 className={styles.segundoh2}>30$</h2>
+                        <h2>Homem</h2>
+                        <h2 className={styles.segundoh2}>30%</h2>
                     </div>
                     <div className={styles.subBloco2}>
                         <i id={styles.icon} class='bx bx-male'></i>
@@ -37,8 +44,8 @@ function Instagram() {
                 </div>
                 <div className={styles.bloco}>
                     <div className={styles.subBloco1}>
-                        <h2>Media ultimos 60 dias</h2>
-                        <h2 className={styles.histories}>130 mil views</h2>
+                        <h2 id={styles.H2grande}>Views média</h2>
+                        <h2>130 mil </h2>
                     </div>
                     <div className={styles.subBloco2}>
                         <i id={styles.icon} class='bx bx-bar-chart-alt-2'></i>

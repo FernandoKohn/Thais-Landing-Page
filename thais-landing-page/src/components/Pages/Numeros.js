@@ -6,32 +6,38 @@ import Tiktok from "./Numeros/Tiktok"
 import Youtube from "./Numeros/Youtube"
 function Numeros() {
 
-    var [show, setShow] = useState(<Instagram/>)
+    var [show, setShow] = useState(true)
+    var [show2, setShow2] = useState(false)
+    var [show3, setShow3] = useState(false)
 
-    function handleChangeRight() {
-        switch (show) {
-            case (<Instagram/>):
-                setShow(<Tiktok/>);
-                break;
-            case (<Tiktok/>):
-                setShow(<Youtube/>);
-                break;
-            case (<Youtube/>):
-                setShow(<Instagram/>);
-                break;
-        }
-        
+    function mostrar1() {
+        setShow(true)
+        setShow2(false)
+        setShow3(false)
+    }
+
+    function mostrar2() {
+        setShow(false)
+        setShow2(true)
+        setShow3(false)
+    }
+    function mostrar3() {
+        setShow(false)
+        setShow2(false)
+        setShow3(true)
     }
 
     return (
         <div className={styles.numeros_container}>
             <div className={styles.fundo2}></div>
             {<Logo />}
-            {show}
+            {show && <Instagram/>}
+            {show2 && <Tiktok/>}
+            {show3 && <Youtube/>}
             <div className={styles.passar}>
-                <i className='bx bx-chevron-left' ></i>
-                <p> | </p>
-                <i onClick={handleChangeRight} className='bx bx-chevron-right'></i>
+                <p onClick={mostrar1}>1</p>
+                <p onClick={mostrar2}>2</p>
+                <p onClick={mostrar3}>3</p>
             </div>
         </div>
     )

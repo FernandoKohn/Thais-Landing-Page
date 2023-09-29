@@ -40,9 +40,9 @@
 .dados {
     width: 250px;
     display: flex;
-    padding-top: 110px;
-    margin-right: -220px;
     flex-direction: column;
+    margin-right: -250px;
+    justify-content: center;
 }
 
 .dados h2 {
@@ -59,8 +59,8 @@
 
 .bloco {
     display: flex;
-    height: 120px;
-    gap: 20px;
+    height: 100px;
+    gap: 30px;
     display: flex;
     justify-content: center;
 }
@@ -81,11 +81,13 @@
   display: flex;
   flex-direction: column;
   text-align: end;
-  width: 105px;
+  width: 135px;
 }
 
 .subBloco2 {
     display: flex;
-    justify-content: start;
     align-items: center;
+    padding-top: 10px;
 }
+
+
