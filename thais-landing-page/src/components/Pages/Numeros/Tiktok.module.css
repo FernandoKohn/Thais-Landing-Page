@@ -12,15 +12,21 @@
 }
 
 .conteudo h1 {
+    color: white;
     font-size: 100px;
-    background-color: #fff1cf;
-    padding: 1px;
+    padding: 0px 10px;
     border-radius: 10px;
 }
 
 .conteudo h2 {
     margin-left: 10px;
     margin-top: 30px;
+}
+
+#arroba {
+    color: white;
+    font-style: italic;
+    font-size: 1.6em;
 }
 
 .titulos {
@@ -100,13 +106,10 @@
     z-index: 1;
 }
 
-.videos img {
-    width: 40%;
-}
 
 .videos i {
     font-size: 5em;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .videos i:hover {
@@ -115,13 +118,69 @@
     transition: .5s;
 }
 
-.video_play {
-    display: flex;
+
+#x {
+    color: var(--Paragrafo);
+    font-size: 3em;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
+    top: -20px;
+    left: -20px;
     z-index: 3;
+    cursor: pointer;
+}
+
+.iframe {
+    width: 101.5%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.metaDados {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+    bottom: -160px;
+    right: -480px;
+    
+}
+
+.metaDados_1 {
+    width: 200px;
+    height: 10px;
+    border-top: 4px solid var(--Paragrafo);
+    margin-top: 13px;
+}
+
+.metaDados_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.metaDados_2 h2 {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.metaDados_2 a {
+    color: var(--Paragrafo);
+    text-decoration: none;
+}
+
+.metaDados_2 h2:hover, .metaDados_2 a:hover {
+    color: var(--Vermelho);
+    transition: .5s;
+    cursor: pointer;
+}
+
+#link {
+    font-size: 1.8em;
 }
 
 
