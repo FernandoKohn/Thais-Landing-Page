@@ -9,7 +9,6 @@ function Instagram() {
     return (
         <div className={styles.conteudo}>
             <div className={styles.videos}>
-            </div>
                 <Animated  animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
                     <i onClick={() => setshowIframe(true)} class='bx bx-play'></i>
                 </Animated>
