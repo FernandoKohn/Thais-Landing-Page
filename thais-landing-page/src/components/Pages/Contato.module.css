@@ -1,10 +1,157 @@
 .container {
     width: 100%;
     height: 100%;
+    background: url("../../Fotos/contatofundo.png");
+    overflow: hidden;
 }
 
 .conteudo {
-    background-color: aqua;
     width: 100%;
     margin-top: 70px;
+    position: relative;
 }
+
+.div1 {
+    font-size: 3em;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    height: 600px;
+
+}
+
+.padding {
+    position: absolute;
+    font-size: 2.5em;
+    top: 410px;
+    left: 420px;
+    border: 2px solid var(--Vermelho);
+    border-radius: 100px;
+    padding: 0 30px;
+    width: 670px;
+    height: 190px;
+    overflow: hidden; 
+    transition: .5s;
+    cursor: pointer;
+}
+
+.padding h1 {
+    color: var(--Vermelho);
+    position: relative;
+    top: 0;
+    transition: .5s;
+    margin-bottom: 10px;
+}
+
+
+
+.padding:hover {
+    animation: btn 0.5s;
+}
+
+
+.padding:hover h1 {
+    top: -200px;
+    transition: .5s;
+
+}
+
+#h1forte {
+    display: block;
+    color: black;
+    position: relative;
+    left: -100px;
+    transition: .5s;
+    background-color: var(--Vermelho);
+    width: 800px;
+    height: 220px;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+#h1forte2 {
+    display: block;
+    color: black;
+    position: relative;
+    left: -100px;
+    transition: .5s;
+    background-color: lightgreen;
+    width: 800px;
+    height: 220px;
+    text-align: center;
+    border-radius: 100px;
+    border-color: lightgreen;
+}
+
+.metaDados {
+    display: flex;
+    width: 410px;
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+    top: 480px;
+    left: 30px;
+    
+}
+
+.metaDados_1 {
+    width: 200px;
+    height: 10px;
+    border-top: 4px solid var(--Paragrafo);
+    margin-top: 13px;
+    position: absolute;
+    right: 0;
+}
+
+.metaDados_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.metaDados_2 h2 {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+
+#link {
+    font-size: 1.8em;
+}
+
+@keyframes btn {
+    50% {
+        width: 690px;
+        height: 210px;
+    }
+
+    100% {
+        width: 670px;
+        height: 190px;
+    }
+
+}
+
+/* @keyframes btn2 {
+    0% {
+        bottom: -170px;
+    }
+
+    50% {
+        bottom: 0;
+    }
+
+} */
+
+/* @keyframes btnOut {
+    0% {
+        top: 0;
+    }
+    
+    100% {
+        top: -300px;
+    } 
+} */
