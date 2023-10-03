@@ -8,20 +8,19 @@ function Contato() {
 
     var [isCopy, setIscopy] = useState(false)
     var [estilo, setEstilo] = useState(styles.h1forte)
+    var [estilo2, setEstilo2] = useState(styles.padding)
     var [copiado, setCopiado] = useState("Contato!")
 
     function copy() {
         if (isCopy == true) {
             setIscopy(false)
             setEstilo(styles.h1forte)
+            setEstilo2(styles.padding)
         } else {
             navigator.clipboard.writeText("contatonixie23@gmail.com")
             setEstilo(styles.h1forte2)
+            setEstilo2(styles.padding_green_border)
             setCopiado("Copiado!")
-            setInterval(() => {
-                setEstilo(styles.h1forte)
-                setCopiado("Contato!")
-            }, 5000);
         }
     }
 
@@ -34,7 +33,7 @@ function Contato() {
                     <h1>Entre</h1>
                     <h1>agora em</h1>
                 </div>
-                <div className={styles.padding} onClick={copy} >
+                <div className={estilo2} onClick={copy} >
                     <h1>Contato!</h1>
                     <h1 id={estilo}>{copiado}</h1>
                 </div>

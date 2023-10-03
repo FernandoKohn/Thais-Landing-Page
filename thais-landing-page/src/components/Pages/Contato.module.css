@@ -35,7 +35,28 @@
     cursor: pointer;
 }
 
-.padding h1 {
+.padding_green_border {
+    position: absolute;
+    font-size: 2.5em;
+    top: 410px;
+    left: 420px;
+    border: 2px solid var(--Vermelho);
+    border-radius: 100px;
+    padding: 0 30px;
+    width: 670px;
+    height: 190px;
+    overflow: hidden; 
+    transition: .5s;
+    cursor: pointer;
+}
+
+.padding_green_border:hover {
+    border: 2px solid lightgreen;
+} 
+
+
+
+.padding h1, .padding_green_border h1 {
     color: var(--Vermelho);
     position: relative;
     top: 0;
@@ -45,12 +66,12 @@
 
 
 
-.padding:hover {
+.padding:hover, .padding_green_border:hover {
     animation: btn 0.5s;
 }
 
 
-.padding:hover h1 {
+.padding:hover h1, .padding_green_border:hover h1 {
     top: -200px;
     transition: .5s;
 
@@ -81,7 +102,6 @@
     height: 220px;
     text-align: center;
     border-radius: 100px;
-    border-color: lightgreen;
 }
 
 .metaDados {

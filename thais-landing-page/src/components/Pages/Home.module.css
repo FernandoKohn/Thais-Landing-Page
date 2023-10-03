@@ -12,10 +12,12 @@
     height: 88%;
     display: flex;
     
+    
 }
 
 .content_wrap {
     display: flex;
+    
 }
 
 .foto {
