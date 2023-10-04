@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Layout/Navbar';
 import Home from "../src/components/Pages/Home"
 import Numeros from "../src/components/Pages/Numeros"
@@ -17,27 +17,28 @@ function App() {
   console.log(url)
   return (
     <div className='container'>
-      <Navbar/>
+      <Navbar />
       <Router>
         <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/Números" element={<Numeros/> } />
-        <Route path="/Contato" element={<Contato/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Números" element={<Numeros />} />
+          <Route path="/Contato" element={<Contato />} />
         </Routes>
       </Router>
       <div className="pagination">
-            <div>
-              {(url = "http://localhost:3000/" && page) && (
-                <a href="http://localhost:3000/N%C3%BAmeros">a</a>
-              )}
-            </div>
-            <div>
-                <i class='bx bx-left-arrow-alt'></i>
-            </div>
+        <div>
+          <a href="https://www.instagram.com/Nixie____"><i class='bx bxl-instagram-alt'></i></a>
         </div>
-      
+        <div>
+          <a href="https://www.youtube.com/@Nixienaga/videos"><i class='bx bxl-youtube' ></i></a>
+        </div>
+        <div>
+          <a href="https://www.tiktok.com/@nixienaga?lang=pt-BR"><i class='bx bxl-tiktok'></i></a>
+        </div>
+      </div>
+
     </div>
   );
 }
 
-export default App;
+export default App
