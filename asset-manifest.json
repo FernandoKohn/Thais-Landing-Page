@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Thais-Landing-Page/static/css/main.5f9a792a.css",
-    "main.js": "/Thais-Landing-Page/static/js/main.46d09f30.js",
+    "main.js": "/Thais-Landing-Page/static/js/main.427c61cd.js",
     "static/js/787.9ae6b9ed.chunk.js": "/Thais-Landing-Page/static/js/787.9ae6b9ed.chunk.js",
     "static/media/youtube1.png": "/Thais-Landing-Page/static/media/youtube1.8b175af73c58a2e8c125.png",
     "static/media/card1.png": "/Thais-Landing-Page/static/media/card1.d613ad21918c7e432bf0.png",
@@ -16,11 +16,11 @@
     "static/media/nix-exe.png": "/Thais-Landing-Page/static/media/nix-exe.e195906c068378e98ec3.png",
     "index.html": "/Thais-Landing-Page/index.html",
     "main.5f9a792a.css.map": "/Thais-Landing-Page/static/css/main.5f9a792a.css.map",
-    "main.46d09f30.js.map": "/Thais-Landing-Page/static/js/main.46d09f30.js.map",
+    "main.427c61cd.js.map": "/Thais-Landing-Page/static/js/main.427c61cd.js.map",
     "787.9ae6b9ed.chunk.js.map": "/Thais-Landing-Page/static/js/787.9ae6b9ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9a792a.css",
-    "static/js/main.46d09f30.js"
+    "static/js/main.427c61cd.js"
   ]
 }
