@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Thais-portfolio/static/css/main.6442d65d.css",
-    "main.js": "/Thais-portfolio/static/js/main.3322a0d7.js",
-    "static/js/787.9ae6b9ed.chunk.js": "/Thais-portfolio/static/js/787.9ae6b9ed.chunk.js",
-    "static/media/youtube1.png": "/Thais-portfolio/static/media/youtube1.8b175af73c58a2e8c125.png",
-    "static/media/card1.png": "/Thais-portfolio/static/media/card1.d613ad21918c7e432bf0.png",
-    "static/media/thais2.png": "/Thais-portfolio/static/media/thais2.5000422b6f936d1ef160.png",
-    "static/media/contatofundo.png": "/Thais-portfolio/static/media/contatofundo.1b788e40d86e5aa78462.png",
-    "static/media/thaisinsta2.jpg": "/Thais-portfolio/static/media/thaisinsta2.2b4ff50f4c3d62caea88.jpg",
-    "static/media/insta-chat.png": "/Thais-portfolio/static/media/insta-chat.ba0a11cbb6126e71d157.png",
-    "static/media/fundo.exe.png": "/Thais-portfolio/static/media/fundo.exe.a45b5a10f4faa9fa7c6d.png",
-    "static/media/glass-water-free-personal-use.ttf": "/Thais-portfolio/static/media/glass-water-free-personal-use.f92fc4293c5778954eef.ttf",
-    "static/media/Benkids-BF650a9cdf13544.ttf": "/Thais-portfolio/static/media/Benkids-BF650a9cdf13544.f8f053c3050af6e9d3b0.ttf",
-    "static/media/thaisAT.png": "/Thais-portfolio/static/media/thaisAT.0219f435749bffacda21.png",
-    "static/media/nix-exe.png": "/Thais-portfolio/static/media/nix-exe.e195906c068378e98ec3.png",
-    "index.html": "/Thais-portfolio/index.html",
-    "main.6442d65d.css.map": "/Thais-portfolio/static/css/main.6442d65d.css.map",
-    "main.3322a0d7.js.map": "/Thais-portfolio/static/js/main.3322a0d7.js.map",
-    "787.9ae6b9ed.chunk.js.map": "/Thais-portfolio/static/js/787.9ae6b9ed.chunk.js.map"
+    "main.css": "/static/css/main.ce597ff4.css",
+    "main.js": "/static/js/main.7b289d60.js",
+    "static/js/787.9ae6b9ed.chunk.js": "/static/js/787.9ae6b9ed.chunk.js",
+    "static/media/youtube1.png": "/static/media/youtube1.8b175af73c58a2e8c125.png",
+    "static/media/card1.png": "/static/media/card1.d613ad21918c7e432bf0.png",
+    "static/media/thais2.png": "/static/media/thais2.5000422b6f936d1ef160.png",
+    "static/media/contatofundo.png": "/static/media/contatofundo.1b788e40d86e5aa78462.png",
+    "static/media/thaisinsta2.jpg": "/static/media/thaisinsta2.2b4ff50f4c3d62caea88.jpg",
+    "static/media/insta-chat.png": "/static/media/insta-chat.ba0a11cbb6126e71d157.png",
+    "static/media/fundo.exe.png": "/static/media/fundo.exe.a45b5a10f4faa9fa7c6d.png",
+    "static/media/glass-water-free-personal-use.ttf": "/static/media/glass-water-free-personal-use.f92fc4293c5778954eef.ttf",
+    "static/media/Benkids-BF650a9cdf13544.ttf": "/static/media/Benkids-BF650a9cdf13544.f8f053c3050af6e9d3b0.ttf",
+    "static/media/thaisAT.png": "/static/media/thaisAT.0219f435749bffacda21.png",
+    "static/media/nix-exe.png": "/static/media/nix-exe.e195906c068378e98ec3.png",
+    "index.html": "/index.html",
+    "main.ce597ff4.css.map": "/static/css/main.ce597ff4.css.map",
+    "main.7b289d60.js.map": "/static/js/main.7b289d60.js.map",
+    "787.9ae6b9ed.chunk.js.map": "/static/js/787.9ae6b9ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6442d65d.css",
-    "static/js/main.3322a0d7.js"
+    "static/css/main.ce597ff4.css",
+    "static/js/main.7b289d60.js"
   ]
 }
