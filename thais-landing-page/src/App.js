@@ -5,16 +5,12 @@ import Home from "../src/components/Pages/Home"
 import Numeros from "../src/components/Pages/Numeros"
 import Contato from "../src/components/Pages/Contato"
 import 'animate.css';
-import { useState } from 'react';
+import Pagination from './components/Layout/Pagination';
 
 
 
 function App() {
 
-  var [page, setPage] = useState(true)
-
-  var url = window.location.href
-  console.log(url)
   return (
     <div className='container'>
       <Navbar />
@@ -25,18 +21,7 @@ function App() {
           <Route path="/Contato" element={<Contato />} />
         </Routes>
       </Router>
-      <div className="pagination">
-        <div>
-          <a target='_blank' href="https://www.instagram.com/Nixie____"><i class='bx bxl-instagram-alt'></i></a>
-        </div>
-        <div>
-          <a target='_blank' href="https://www.youtube.com/@Nixienaga/videos"><i class='bx bxl-youtube' ></i></a>
-        </div>
-        <div>
-          <a target='_blank' href="https://www.tiktok.com/@nixienaga?lang=pt-BR"><i class='bx bxl-tiktok'></i></a>
-        </div>
-      </div>
-
+      <Pagination/>
     </div>
   );
 }

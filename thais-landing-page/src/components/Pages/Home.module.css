@@ -77,3 +77,9 @@
     cursor: help;
     color: var(--Titulo);
 }
+
+@media (max-width:1510px) {
+    .ass {
+        margin-left: 150px;
+    }
+  }
