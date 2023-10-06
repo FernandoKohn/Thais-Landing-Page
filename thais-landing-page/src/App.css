@@ -22,6 +22,9 @@
 
 html {
  background-color: #D6CAAF;
+ display: flex;
+ justify-content: center;
+ overflow: hidden;
 }
 
 :root {
@@ -36,7 +39,7 @@ html {
   height: 800px;
   width: 1800px;
   background-color: #D6CAAF;
-  margin: 70px auto;
+  margin: 70px 0;
   border: 4px solid #000000;
   border-radius: 5px;
   display: flex;
@@ -66,6 +69,11 @@ html {
   color: var(--Vermelho);
   font-size: 1.5em;
   cursor: pointer;
+}
+
+.pagination div i:hover {
+  color: white;
+  font-size: 1.6em;
 }
 
 h1 {
