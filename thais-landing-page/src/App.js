@@ -12,16 +12,18 @@ import Pagination from './components/Layout/Pagination';
 function App() {
 
   return (
-    <div className='container'>
-      <Navbar />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Números" element={<Numeros />} />
-          <Route path="/Contato" element={<Contato />} />
-        </Routes>
-      </Router>
-      <Pagination/>
+    <div className="all">
+      <div className='container'>
+        <Navbar />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Números" element={<Numeros />} />
+            <Route path="/Contato" element={<Contato />} />
+          </Routes>
+        </Router>
+        <Pagination/>
+      </div>
     </div>
   );
 }

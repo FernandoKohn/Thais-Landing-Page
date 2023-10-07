@@ -20,9 +20,15 @@
   font-family: "Gol";
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 
 body {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #D6CAAF;
   display: flex;
   align-items: center;
@@ -39,6 +45,14 @@ body {
 
 #root {
   position: fixed;
+}
+
+.all {
+  width: 100%;
+  height: 100vh;
+  background-color: #D66361;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -77,5 +91,23 @@ p {
   .container {
     width: 1600px;
     height: 800px;
+  }
+}
+
+@media (max-width:1360px) {
+  .container {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width:1205px) {
+  .container {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width:1040px) {
+  .container {
+    display: none;
   }
 }
