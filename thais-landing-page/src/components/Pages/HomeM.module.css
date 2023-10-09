@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    width: 94vw;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+.one h1 {
+    font-size: 7em;
+    font-family: "Glass Water";
+    z-index: 1;
+}
+
+.one p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.linha {
+    width: 10px;
+    height: 1000px;
+    border-left: 2px solid var(--Paragrafo);
+    z-index: 2;
+    position: absolute;
+    left: 130px;
+    top: 440px;
+}
+
+#foto {
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    width: 600px;
+    z-index: 0;
+}
+
+.descri{
+    align-self: start;
+}
+
+.descri p {
+    font-size: 2em;
+}
+
+
+.second {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
