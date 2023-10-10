@@ -69,8 +69,8 @@ function Instagram() {
                     
                 </div>
                 <div className={styles.metaDados_2}>
-                    <h2> Vídeos de humor em casal </h2>
-                    <h2>Ótimo enngagamento nos vídeos</h2>
+                    <h2>Humor em casal </h2>
+                    <h2>Ótimo enngagamento</h2>
                     <a target="_blank" href="https://www.instagram.com/nixie____/"><i id={styles.link} class='bx bx-link-external'></i></a>
                 </div>
             </Animated>

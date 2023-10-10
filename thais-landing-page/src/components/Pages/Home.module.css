@@ -80,8 +80,26 @@
     color: var(--Titulo);
 }
 
+
+
 @media (max-width:1510px) {
     .ass {
-        margin-left: 150px;
+        margin-left: 200px;
+        margin-top: -20px;
+    }
+
+    .home {
+        background: none;
     }
   }
+
+  @media (max-width:550px) {
+    .ass {
+        width: 70%;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+  }
+
+
+ 

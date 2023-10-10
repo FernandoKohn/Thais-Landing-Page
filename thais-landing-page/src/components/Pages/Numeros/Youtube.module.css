@@ -187,3 +187,12 @@
 #link {
     font-size: .5em;
 }
+
+@media (max-width:1510px) {
+    .metaDados_1 {
+        width: 100px;
+    }
+
+    
+
+  }
