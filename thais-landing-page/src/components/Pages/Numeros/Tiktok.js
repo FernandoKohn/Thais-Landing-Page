@@ -21,7 +21,7 @@ function Instagram() {
             </iframe>}
 
             <Animated className={styles.titulos} animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
-                <h1>Tiktok</h1>
+                <h1>TikTok</h1>
                 <h2 id={styles.arroba} >@nixienaga</h2>
             </Animated>
 

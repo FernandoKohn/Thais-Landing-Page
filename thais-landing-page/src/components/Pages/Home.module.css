@@ -41,14 +41,15 @@
 
 .about p {
     color: #3935338f;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-style: italic;
 }
 
 .about h2 {
     margin-top: 2em;
     color: var(--Titulo);
-    font-size: 1.8em;
+    font-size: 1.2em;
+    line-height: 33px;
 }
 
 .linha {
@@ -59,12 +60,13 @@
 }
 
 .ass {
-    width: 100%;
+    width: 90%;
     height: 200px;
     background-image: url("../../Fotos/thaisAT.png");
     background-repeat: no-repeat;
     background-size: 80%;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .links {

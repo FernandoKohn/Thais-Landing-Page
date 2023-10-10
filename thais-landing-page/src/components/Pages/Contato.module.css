@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     height: 100%;
-    background: url("../../Fotos/contatofundo.png");
+    background: url("../../Fotos/contatofundo2.png");
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .div1 {
-    font-size: 3em;
+    font-size: 2.4em;
     position: absolute;
     top: -50px;
     left: 100px;
@@ -22,13 +22,13 @@
 
 .padding {
     position: absolute;
-    font-size: 2.5em;
-    top: 410px;
-    left: 420px;
+    font-size: 1.9em;
+    top: 370px;
+    left: 460px;
     border: 2px solid var(--Vermelho);
     border-radius: 100px;
     padding: 0 30px;
-    width: 670px;
+    width: 800px;
     height: 190px;
     overflow: hidden; 
     transition: .5s;
@@ -37,13 +37,13 @@
 
 .padding_green_border {
     position: absolute;
-    font-size: 2.5em;
-    top: 410px;
-    left: 420px;
+    font-size: 1.9em;
+    top: 370px;
+    left: 460px;
     border: 2px solid var(--Vermelho);
     border-radius: 100px;
     padding: 0 30px;
-    width: 670px;
+    width: 800px;
     height: 190px;
     overflow: hidden; 
     transition: .5s;
@@ -61,7 +61,7 @@
     position: relative;
     top: 0;
     transition: .5s;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 
@@ -81,13 +81,16 @@
     display: block;
     color: black;
     position: relative;
-    left: -100px;
+    left: -150px;
     transition: .5s;
     background-color: var(--Vermelho);
-    width: 800px;
-    height: 220px;
+    width: 1000px;
+    height: 300px;
     text-align: center;
     border-radius: 100px;
+    padding-top: 40px;
+    padding-left: 30px;
+
 
 }
 
@@ -95,31 +98,32 @@
     display: block;
     color: black;
     position: relative;
-    left: -100px;
+    left: -150px;
     transition: .5s;
     background-color: lightgreen;
-    width: 800px;
-    height: 220px;
+    width: 1000px;
+    height: 300px;
     text-align: center;
     border-radius: 100px;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 .metaDados {
     display: flex;
-    width: 410px;
+    width: 440px;
     height: 200px;
     position: absolute;
     z-index: 10;
-    top: 480px;
-    left: 30px;
-    
+    top: 450px;
+    left:  40px;
 }
 
 .metaDados_1 {
     width: 200px;
     height: 10px;
     border-top: 4px solid var(--Paragrafo);
-    margin-top: 13px;
+    margin-top: 8px;
     position: absolute;
     right: 0;
 }
@@ -128,7 +132,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 10px;
+    font-size: 5.5em;
 }
 
 .metaDados_2 h2 {
@@ -138,18 +142,20 @@
 }
 
 
-#link {
-    font-size: 1.8em;
-}
 
 @keyframes btn {
+    0% {
+        width: 800px;
+        height: 190px;
+    }
+
     50% {
-        width: 690px;
+        width: 820px;
         height: 210px;
     }
 
     100% {
-        width: 670px;
+        width: 800px;
         height: 190px;
     }
 
