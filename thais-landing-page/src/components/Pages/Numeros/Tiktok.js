@@ -13,7 +13,7 @@ function Instagram() {
                     <i onClick={() => setshowIframe(true)} class='bx bx-play'></i>
                 </Animated>
             </div>
-
+            
             {showIframe && <i id={styles.x} onClick={() => setshowIframe(false)} class='bx bx-x'></i>}
 
             {showIframe &&
