@@ -7,8 +7,6 @@
     left: 300px;
     z-index: 3;
     justify-content: space-between;
-    background-color: white;
-    
 }
 
 .conteudo h1 {
@@ -29,6 +27,13 @@
     font-size: 1.6em;
 }
 
+#arroba2 {
+    color: black;
+    font-style: italic;
+    font-size: 1.6em;
+    transition: .5s;
+}
+
 .titulos {
     display: flex;
     flex-direction: column;
@@ -37,9 +42,27 @@
     z-index: 4;
 }
 
+.titulosBlack  {
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+    margin-top: 100px;
+    z-index: 4;
+}
+
+.titulosBlack h1  {
+    color: black;
+    transition: .5s;
+}
+
 .titulos h2 {
     font-size: 2em;
 }
+
+/* #Tiktok {
+    color: black;
+    transition: ;
+} */
 
 .dados {
     width: 250px;

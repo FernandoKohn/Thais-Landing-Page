@@ -5,24 +5,38 @@ import {Animated} from "react-animated-css";
 function Instagram() {
 
     var [showIframe, setshowIframe] = useState(false)
+    var [changeColor, setChangecolor] = useState(styles.titulos)
+    var [changeColorArrob, setChangecolorarroba] = useState(styles.arroba)
+    function handleClickOn() {
+        setshowIframe(true) 
+        setChangecolor(styles.titulosBlack)
+        setChangecolorarroba(styles.arroba2)
+    }
+
+
+    function handleClickOff() {
+        setshowIframe(false) 
+        setChangecolor(styles.titulos)
+        setChangecolorarroba(styles.arroba)
+    }
 
     return (
         <div className={styles.conteudo}>
             <div className={styles.videos}>
                 <Animated  animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
-                    <i onClick={() => setshowIframe(true)} class='bx bx-play'></i>
+                    <i onClick={handleClickOn} class='bx bx-play'></i>
                 </Animated>
             </div>
             
-            {showIframe && <i id={styles.x} onClick={() => setshowIframe(false)} class='bx bx-x'></i>}
+            {showIframe && <i id={styles.x} onClick={handleClickOff} class='bx bx-x'></i>}
 
             {showIframe &&
-             <iframe className={styles.iframe} src="https://www.tiktok.com/@nixienaga/video/7103951233160989957?lang=pt-BR" frameborder="0">
+             <iframe className={styles.iframe} src="https://www.tiktok.com/embed/7103951233160989957" frameborder="0">
             </iframe>}
 
-            <Animated className={styles.titulos} animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
+            <Animated className={changeColor} animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
                 <h1>TikTok</h1>
-                <h2 id={styles.arroba} >@nixienaga</h2>
+                <h2 id={changeColorArrob} >@nixienaga</h2>
             </Animated>
 
             <Animated className={styles.dados} animationIn="slideInRight" animationOut="fadeOut" isVisible={true}>

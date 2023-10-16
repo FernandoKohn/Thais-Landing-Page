@@ -2,6 +2,7 @@ import styles from "./Youtube.module.css"
 import { useState } from "react"
 import {Animated} from "react-animated-css";
 
+
 function Youtube() {
 
     var [showIframe, setshowIframe] = useState(false)
@@ -12,7 +13,7 @@ function Youtube() {
         <div className={styles.conteudo}>
             <Animated className={styles.titulos} animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
                 <h1>Youtube</h1>
-                <h2 id={styles.arroba} >@nixienaga</h2>
+                <h2 id={styles.arroba}>@nixienaga</h2>
             </Animated>
 
             <Animated className={styles.videos} animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
