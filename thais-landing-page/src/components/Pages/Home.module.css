@@ -90,11 +90,25 @@
   }
 
   @media (max-width:550px) {
+    
+    .about h1 {
+        font-size: 6em;
+    }
+
+    .about h2 {
+        font-size: 0.75em;
+        line-height: 20px;
+    }
+    
     .ass {
         width: 70%;
         margin-top: 35px;
         margin-left: 100px;
     }
+
+
+    
+
   }
 
 

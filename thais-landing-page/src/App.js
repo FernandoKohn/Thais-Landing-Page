@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="all">
-      <div className='container'>
+      <div className="container">
         <Router>
         <Navbar />
           <Routes>

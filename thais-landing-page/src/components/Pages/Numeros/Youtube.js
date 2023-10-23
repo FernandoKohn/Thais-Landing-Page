@@ -2,7 +2,6 @@ import styles from "./Youtube.module.css"
 import { useState } from "react"
 import {Animated} from "react-animated-css";
 
-
 function Youtube() {
 
     var [showIframe, setshowIframe] = useState(false)
@@ -11,19 +10,19 @@ function Youtube() {
 
     return (
         <div className={styles.conteudo}>
-            <Animated className={styles.titulos} animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
+            <div className={styles.titulos}>
                 <h1>Youtube</h1>
                 <h2 id={styles.arroba}>@nixienaga</h2>
-            </Animated>
+            </div>
 
-            <Animated className={styles.videos} animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
+            {!showIframe &&  <div className={styles.videos}>
                 <i onClick={() => setshowIframe(true)} class='bx bx-play'></i>
-            </Animated>
+            </div>}
 
             {showIframe && <i id={styles.x} onClick={() => setshowIframe(false)} class='bx bx-x'></i>}
 
             {showIframe &&  
-            <iframe className={styles.iframe} src="https://www.youtube.com/watch?v=LvRCjGcqZqk&ab_channel=NixieeNaga" frameborder="0">
+            <iframe className={styles.iframe} src="https://www.youtube.com/embed/LvRCjGcqZqk" frameborder="0">
             </iframe>}
            
 
