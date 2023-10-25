@@ -34,6 +34,7 @@
     color: #3935338f;
     font-size: 1.3em;
     font-style: italic;
+    
 }
 
 .about h2 {
@@ -41,6 +42,8 @@
     color: var(--Titulo);
     font-size: 1.2em;
     line-height: 33px;
+    text-align: justify;
+    
 }
 
 .linha {
@@ -92,18 +95,19 @@
   @media (max-width:550px) {
     
     .about h1 {
-        font-size: 6em;
+        font-size: 7em;
     }
 
     .about h2 {
-        font-size: 0.75em;
-        line-height: 20px;
+        font-size: 1.4em;
+        line-height: 33px;
+        margin-top: 2em;
     }
     
     .ass {
-        width: 70%;
-        margin-top: 35px;
-        margin-left: 100px;
+        width: 65%;
+        margin-top: -25px;
+        margin-left: 250px;
     }
 
 
