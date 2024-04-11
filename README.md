@@ -1,5 +1,5 @@
 # Portfólio Thais Passos... Uma pitada de luxo
-[![Thais Passos](https://imgur.com/a/wqbgkV1)](https://a-thais.online/)
+[![Thais Passos](https://imgur.com/IaTUM0z)](https://a-thais.online/)
 
 ## Conceito
 
